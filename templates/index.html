@@ -1,0 +1,251 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static '/css/style1.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    <title>HOME</title>
+</head>
+<body>
+
+<div style="display: flex;justify-content: space-between;gap: 1rem;">
+
+    
+<div style="background-color: #202b46;" class="sidebar">
+
+    <div style="display: flex;justify-content: space-between;">
+        <img style="margin-left: 1.5rem;" src="{% static 'images/default-dark.svg' %}" alt="" width="90rem" height="90rem">
+        <i class="fa-solid fa-angles-left" style="color: rgb(46, 44, 44);background-color: #3f485f;padding: 0.5rem;border-radius: 5px;height: 2rem;margin-right:1rem;margin-top: 2rem;"></i>
+    </div>
+
+    <hr style="border: 1px dotted rgb(62, 61, 61);">
+
+    <nav style="margin-left: 1rem;color: white;font-size: 0.7rem;">
+        
+        <ul>
+            
+            <li style="display: flex;gap: 0.7rem;">
+                <i class="fa-brands fa-elementor"></i>
+                <a href="#" style="color: white;font-size: 1rem;">Dashboard</a>
+            </li>
+        </ul>
+
+        <p style="color: #8d98af;">PAGES</p>
+
+                <ul>
+            <li style="display: flex;gap: 0.7rem;">
+                <i class="fa-regular fa-id-badge"></i>
+                <a href="#" style="color: #8d98af;">User Profile</a>
+            </li>
+
+            <li style="display: flex;gap: 0.7rem;">
+                <i class="fa-solid fa-file-invoice-dollar"></i>
+                <a href="#" style="color: #8d98af;">Account</a>
+            </li>
+
+            <li style="display: flex;gap: 0.7rem;">
+                <i class="fa-solid fa-user"></i>
+                <a href="#" style="color: #8d98af;">Authentication</a>
+            </li>
+
+            <li style="display: flex;gap: 0.7rem;">
+                <i class="fa-solid fa-file"></i>
+                <a href="#" style="color: #8d98af;">Corporate</a>
+            </li>
+
+            <li style="display: flex;gap: 0.7rem;">
+                <i class="fa-solid fa-volleyball"></i>
+                <a href="#" style="color: #8d98af;">Social</a>
+            </li>
+
+            <li style="display: flex;gap: 0.7rem;">
+                <i class="fa-solid fa-warehouse"></i>
+                <a href="#" style="color: #8d98af;">Blog</a>
+            </li>
+
+            <li style="display: flex;gap: 0.7rem;">
+                <i class="fa-solid fa-volume-high"></i>
+                <a href="#" style="color: #8d98af;">Careers</a>
+            </li>
+
+            <li style="display: flex;gap: 0.7rem;">
+                <i class="fa-solid fa-swatchbook"></i>
+                <a href="#" style="color: #8d98af;">Utilities</a>
+            </li>
+
+        </ul>
+
+        <p style="color: #8d98af;">APPS</p>
+
+                <ul>
+            <li style="display: flex;gap: 0.7rem;">
+                <i class="fa-solid fa-table-columns"></i>
+                <a href="#" style="color: #8d98af;">Projects</a>
+            </li>
+
+            <li style="display: flex;gap: 0.7rem;">
+                <i class="fa-solid fa-basket-shopping"></i>
+                <a href="#" style="color: #8d98af;">eCommerce</a>
+            </li>
+
+
+
+               
+            <li class="dropdown" style="margin-right: 1rem;">
+                <a href="#" class="btn dropdown-toggle btn-sm" data-toggle="dropdown">Contact</a>
+                <div class="dropdown-menu" style="background-color: #202b46;">
+                    <a style=" display: flex;justify-content: space-between;" class="dropdown-item" href="#"><span style="font-size: 0.3rem;margin-top: 0.6rem;"><i class="fa-solid fa-circle"></i></span>Edit Contact</a>
+                    <a style=" display: flex;justify-content: space-between;" class="dropdown-item" href="#"><span style="font-size: 0.3rem;margin-top: 0.6rem;"><i class="fa-solid fa-circle"></i></span>View Contact</a>
+                </div>
+            </li>
+
+
+
+
+
+
+            <li style="display: flex;gap: 0.7rem;">
+                <i class="fa-solid fa-circle-notch"></i>
+                <a href="#" style="color: #8d98af;">support Center</a>
+            </li>
+
+            <li style="display: flex;gap: 0.7rem;">
+                <i class="fa-solid fa-braille"></i>
+                <a href="#" style="color: #8d98af;">User Management</a>
+            </li>
+
+            <li style="display: flex;gap: 0.7rem;">
+                <i class="fa-brands fa-google-drive"></i>
+                <a href="#" style="color: #8d98af;">Costomers</a>
+            </li>
+
+            <li style="display: flex;gap: 0.7rem;">
+                <i class="fa-solid fa-sack-dollar"></i>
+                <a href="#" style="color: #8d98af;">Subscription</a>
+            </li>
+
+            <li style="display: flex;gap: 0.7rem;">
+                <i class="fa-solid fa-credit-card"></i>
+                <a href="#" style="color: #8d98af;">Invoice Manager</a>
+            </li>
+
+            <li style="display: flex;gap: 0.7rem;">
+                <i class="fa-solid fa-sliders"></i>
+                <a href="#" style="color: #8d98af;">File Manager</a>
+            </li>
+
+            <li style="display: flex;gap: 0.7rem;">
+                <i class="fa-solid fa-inbox"></i>
+                <a href="#" style="color: #8d98af;">Inbox</a>
+            </li>
+
+            <li style="display: flex;gap: 0.7rem;">
+                <i class="fa-regular fa-message"></i>
+                <a href="#" style="color: #8d98af;">Chat</a>
+            </li>
+
+            <li style="display: flex;gap: 0.7rem;">
+                <i class="fa-solid fa-calendar-days"></i>
+                <a href="#" style="color: #8d98af;">Calender</a>
+            </li>
+
+        </ul>
+
+    </nav>
+</div>
+    
+    
+    
+
+
+
+
+
+
+ <div class="form_container" style="margin-left: 60rem;margin-top: 10rem;">
+    <div class="heading_container" style="display: flex;gap: 0.5rem;">
+        <i class="fa-regular fa-address-card" style="margin-top: 0.4rem;color: #8d98af;"></i>
+      <h5 style="position: relative;font-weight: 700;">Add New Contact</h5>
+    </div>
+
+        <div>
+
+
+            <div>Update Avatar</div>
+            <div>
+
+            </div>
+        </div>
+
+    <form action="#" method="post">{% csrf_token %}
+
+      
+      <div style="margin-bottom: 2rem;">
+        <label for="">Name <span style="color: red;">*</span></label>
+        <input type="text" class="form-control form-control-solid" style="width: 558px;" placeholder="" name="name">
+      </div>
+
+      <div style="margin-bottom: 2rem;">
+        <label for="">Company Name</label>
+        <input type="text" class="form-control form-control-solid" style="width: 558px;" placeholder="" name="company">
+      </div>
+
+
+
+
+      <div style="margin-bottom: 2rem;display: flex;gap: 8px;">
+        <div>
+          <label for="">Email <span style="color: red;">*</span></label>
+        <input type="email" class="form-control form-control-solid" style="width: 275px;" placeholder="" name="email">
+      </div>
+        <div>
+          <label for="">Number</label>
+        <input type="number" class="form-control form-control-solid" style="width: 275px;" placeholder="" name="number">
+      </div>
+
+
+       
+
+      </div>
+
+      <div style="margin-bottom: 2rem;display: flex;gap: 8px;">
+        <div>
+          <label for="">City</label>
+          <input type="city" class="form-control form-control-solid" style="width: 275px;"  placeholder="" name="city">
+        </div>
+        
+        <div>
+          <label for="">Country</label>
+          <input type="country" class="form-control form-control-solid" style="width: 275px;"  placeholder="" name="country">
+        </div>
+      </div>
+
+
+
+      <div style="margin-bottom: 2rem;">
+        <label for="">Notes</label>
+        <input type="message" class="form-control form-control-solid" style="width: 558px;height: 6rem;" placeholder="" name="messsage">
+      </div>
+
+<div style="margin-left: 27rem;">
+    <a href=""><span style="color: #525459;">Cancel</span></a>
+    <a style="background-color: #3E97FF;border: 1px solid #3E97FF;padding-left:  0.8rem;padding-right:  0.8rem;padding-top:  0.6rem;padding-bottom:  0.6rem;border-radius: 5px;"><span style="color: white;font-weight: 600;">Save</span></a>
+</div>
+    </form>
+
+
+  </div>
+
+   
+
+</div>
+
+</body>
+</html>
